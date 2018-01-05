@@ -11,10 +11,7 @@
       rat = 1/r ;
       s = (ab+bc+ac)/2;
       abc =  sqrt(s*(s-ab)*(s-bc)*(s-ac)) ;
-     
-     
       ade = abc / (rat+1)  ;
-     
      
       p=ac/ab;
       q=bc/ab;
@@ -26,3 +23,4 @@
     }
      
     }
+
