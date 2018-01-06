@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     
-    double  s,a,b,c,d,e, area1,h,f,g, area2 ;
+    double  a,b,c,d,e, area1,h,f ;
     int t;
     cin>>t ;
    for(int i=1; i<=t; i++){
