@@ -9,10 +9,10 @@ int main() {
    for(int i=1; i<=t; i++){
 	cin >> a>>b>>c>>d;
 	
-	e = (a-c) ;
-	f = ( b*b - d*d + e*e );
-	g = ( f) /(e*2) ;
-    h = sqrt(b*b - g*g) ;
+    e = (a-c) ;
+    f = ( b*b - d*d + e*e )/(e*2);
+	
+    h = sqrt(b*b - f*f) ;
     area1 = (a+c) * h  * .5 ;
     
     printf("Case %d: %lf\n", i,area1 );    
